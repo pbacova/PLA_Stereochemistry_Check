@@ -89,7 +89,7 @@ int main(int argc, char *argv[]){
         char tmp1[5];
         parse_options (argc, argv);
 	
-         if((init=fopen("../long_runs_daywalker/LPLA/confout.gro","r"))==NULL){
+         if((init=fopen("input.gro","r"))==NULL){
            printf("file can not be opened\n");
            return 1;
            } 
