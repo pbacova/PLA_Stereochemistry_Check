@@ -8,3 +8,4 @@ Procedure:
 2) gcc -lm inner_dist_github.c -o inner_dist_github.out
 3) see the flags with ./inner_dist_github.out
 4) run ./inner_dist_github.out -f 100 -p 70 -k 903 -o 10 for a system of 70 100-mer chains with 100 frames, from which first 10 will be skipped.
+5) use "gnuplot inner_dist_github.g" to plot the results 
